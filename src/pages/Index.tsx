@@ -81,22 +81,22 @@ const Index = () => {
               ⚡ Domine a prospecção por voz antes da concorrência
             </p>
 
-            <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white text-xl font-bold py-4 px-8 rounded-lg mb-6 animate-pulse">
-              🚀 QUERO COMEÇAR AGORA
+            <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg md:text-xl font-bold py-4 px-4 md:px-8 rounded-lg mb-6 animate-pulse min-h-[60px] flex items-center justify-center">
+              <span className="text-center">🚀 QUERO COMEÇAR AGORA</span>
             </Button>
 
-            <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-300">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-gray-300">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-green-500" />
-                <span>Garantia incondicional de 7 dias</span>
+                <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                <span className="text-center">Garantia incondicional de 7 dias</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-green-500" />
-                <span>Acesso vitalício</span>
+                <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                <span className="text-center">Acesso vitalício</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-green-500" />
-                <span>Suporte direto</span>
+                <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                <span className="text-center">Suporte direto</span>
               </div>
             </div>
           </Card>
@@ -479,22 +479,22 @@ const Index = () => {
               <h3 className="text-5xl font-bold text-white mb-2">8x de R$5,38</h3>
               <p className="text-xl mb-6">(ou R$37,90 à vista)</p>
 
-              <Button className="w-full bg-white text-orange-600 hover:bg-gray-100 text-xl font-bold py-6 px-8 rounded-lg mb-4">
-                🚀 SIM, EU QUERO DOMINAR AS LIGAÇÕES LUCRATIVAS!
+              <Button className="w-full bg-white text-orange-600 hover:bg-gray-100 text-base md:text-xl font-bold py-4 md:py-6 px-4 md:px-8 rounded-lg mb-4 min-h-[60px] flex items-center justify-center">
+                <span className="text-center leading-tight">🚀 SIM, EU QUERO DOMINAR AS LIGAÇÕES LUCRATIVAS!</span>
               </Button>
 
-              <div className="grid grid-cols-3 gap-4 text-sm">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4 text-sm">
                 <div className="flex items-center justify-center gap-2">
-                  <Shield className="w-4 h-4" />
-                  <span>7 dias de garantia</span>
+                  <Shield className="w-4 h-4 flex-shrink-0" />
+                  <span className="text-center">7 dias de garantia</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
-                  <Clock className="w-4 h-4" />
-                  <span>Acesso vitalício</span>
+                  <Clock className="w-4 h-4 flex-shrink-0" />
+                  <span className="text-center">Acesso vitalício</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
-                  <Users className="w-4 h-4" />
-                  <span>Suporte incluso</span>
+                  <Users className="w-4 h-4 flex-shrink-0" />
+                  <span className="text-center">Suporte incluso</span>
                 </div>
               </div>
             </div>
@@ -533,8 +533,8 @@ const Index = () => {
           <p className="text-gray-400 text-sm">
             © 2024 Mestre das Ligações Lucrativas. Todos os direitos reservados.
           </p>
-          <p className="text-gray-500 text-xs mt-2">
-            Este produto não garante a obtenção de resultados. Qualquer referência ao desempenho de uma estratégia não deve ser interpretada como uma garantia de resultados.
+          <p className="text-green-400 text-sm mt-2 font-semibold">
+            ✅ GARANTIA INCONDICIONAL DE 7 DIAS - Se não ficar satisfeito, devolvemos 100% do seu investimento!
           </p>
         </div>
       </footer>
