@@ -48,15 +48,15 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="flex items-center justify-center gap-3">
                 <Phone className="w-6 h-6 text-orange-500" />
-                <span className="font-semibold">Ligações Automatizadas</span>
+                <span className="font-semibold text-white">Ligações Automatizadas</span>
               </div>
               <div className="flex items-center justify-center gap-3">
                 <Zap className="w-6 h-6 text-yellow-500" />
-                <span className="font-semibold">IA de Reconhecimento</span>
+                <span className="font-semibold text-white">IA de Reconhecimento</span>
               </div>
               <div className="flex items-center justify-center gap-3">
                 <TrendingUp className="w-6 h-6 text-green-500" />
-                <span className="font-semibold">Leads Qualificados</span>
+                <span className="font-semibold text-white">Leads Qualificados</span>
               </div>
             </div>
           </Card>
@@ -65,7 +65,7 @@ const Index = () => {
             <p className="text-lg text-gray-300 mb-2">
               Seus vendedores não são <span className="line-through text-gray-500">caçadores de oportunidade</span>
             </p>
-            <p className="text-xl font-bold">
+            <p className="text-xl font-bold text-white">
               São <span className="text-green-500">fechadores de negócio</span>. Dê a eles{" "}
               <span className="text-orange-500">o cliente certo</span>.
             </p>
@@ -340,7 +340,7 @@ const Index = () => {
                   M
                 </div>
                 <div>
-                  <p className="font-bold">Marco Silva</p>
+                  <p className="font-bold text-white">Marco Silva</p>
                   <p className="text-sm text-gray-400">CEO Tech Solutions</p>
                 </div>
               </div>
@@ -360,7 +360,7 @@ const Index = () => {
                   A
                 </div>
                 <div>
-                  <p className="font-bold">Ana Costa</p>
+                  <p className="font-bold text-white">Ana Costa</p>
                   <p className="text-sm text-gray-400">Consultora de Vendas</p>
                 </div>
               </div>
@@ -380,7 +380,7 @@ const Index = () => {
                   R
                 </div>
                 <div>
-                  <p className="font-bold">Roberto Lima</p>
+                  <p className="font-bold text-white">Roberto Lima</p>
                   <p className="text-sm text-gray-400">Empresário</p>
                 </div>
               </div>
