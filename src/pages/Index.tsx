@@ -399,10 +399,10 @@ const Index = () => {
 
             <Card className="bg-slate-700 p-6">
               <h3 className="font-bold text-lg mb-3 text-orange-500">
-                💰 Quanto custa para manter o robô funcionando?
+                🚀 O método funciona em qualquer nicho?
               </h3>
               <p className="text-gray-300">
-                Os custos são mínimos comparado ao retorno. Você paga apenas pelas ligações realizadas, e como o robô qualifica leads, o ROI é sempre positivo.
+                Sim! O método é universal e pode ser aplicado em qualquer segmento: imóveis, seguros, cursos, produtos físicos, serviços e muito mais.
               </p>
             </Card>
 
