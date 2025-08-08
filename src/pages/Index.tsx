@@ -495,22 +495,18 @@ const Index = () => {
             <h3 className="text-xl font-bold mb-4 text-green-500">
               🎁 BÔNUS EXCLUSIVOS INCLUSOS:
             </h3>
-            <ul className="text-left space-y-2">
+            <ul className="text-left space-y-2 text-white">
               <li className="flex items-center gap-3">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>Scripts prontos para 10 nichos diferentes</span>
+                <span>Aula para criar áudios que realmente convertem</span>
               </li>
               <li className="flex items-center gap-3">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>Planilha de controle de resultados</span>
+                <span>Integração com API oficial e não oficial do WhatsApp</span>
               </li>
               <li className="flex items-center gap-3">
                 <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>Grupo VIP no Telegram</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 text-green-500" />
-                <span>Atualizações gratuitas vitalícias</span>
+                <span>Como ganhar dinheiro vendendo as ligações para outros negócios</span>
               </li>
             </ul>
           </div>
