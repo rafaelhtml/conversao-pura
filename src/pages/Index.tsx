@@ -182,10 +182,14 @@ const Index = () => {
             <h3 className="text-2xl font-bold mb-4">
               <span className="text-orange-500">Automatize a prospecção de ligações</span>
             </h3>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
               E deixe que o robô entregue para sua equipe de vendas apenas
               clientes quentes e <strong className="text-green-500">prontos para fechar</strong>.
             </p>
+            
+            <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+              🚀 QUERO COMEÇAR AGORA
+            </Button>
           </div>
         </div>
       </section>
@@ -196,9 +200,15 @@ const Index = () => {
           <h2 className="text-4xl font-bold text-center mb-4">
             Exemplos de Robôs que você vai aprender a criar
           </h2>
-          <p className="text-xl text-center text-gray-300 mb-12">
+          <p className="text-xl text-center text-gray-300 mb-8">
             Ouça como funciona na prática:
           </p>
+          
+          <div className="text-center mb-12">
+            <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+              💰 QUERO CRIAR MEUS ROBÔS
+            </Button>
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="bg-slate-800 p-6">
@@ -315,11 +325,57 @@ const Index = () => {
               <p className="text-gray-300">Sistema funcionando 24/7 sem sua intervenção</p>
             </Card>
           </div>
+          
+          <div className="text-center mt-12">
+            <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+              🎯 QUERO ACESSO COMPLETO
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* About Rafael Soares Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-center mb-12">
+              👨‍🏫 Conheça seu <span className="text-orange-500">mentor</span>
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="text-center">
+                <img 
+                  src="https://ligacoeslucrativas.com.br/img/rafa02.jpg" 
+                  alt="Rafael Soares - Especialista em Automação de Vendas" 
+                  className="w-80 h-80 object-cover rounded-lg mx-auto mb-6 shadow-2xl"
+                />
+              </div>
+              
+              <div>
+                <h3 className="text-3xl font-bold mb-6 text-white">
+                  Rafael Soares
+                </h3>
+                <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+                  <strong className="text-orange-500">CEO da Telein</strong>, é especialista em automação de vendas por voz, 
+                  criador do método Mestre das Ligações Lucrativas, e de várias soluções de automação.
+                </p>
+                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+                  Com mais de <strong className="text-green-500">10 anos de experiência</strong> em marketing, 
+                  tecnologia e prospecção automatizada, ajudou <strong className="text-orange-500">centenas de empresas</strong> 
+                  a escalarem suas vendas usando a URA Reversa.
+                </p>
+                
+                <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+                  🚀 QUERO APRENDER COM O RAFAEL
+                </Button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Testimonials / Social Proof */}
-      <section className="py-16">
+      <section className="bg-slate-800 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">
             Veja os resultados de quem já está usando
@@ -395,6 +451,12 @@ const Index = () => {
           <h2 className="text-4xl font-bold text-center mb-12">
             Perguntas Frequentes
           </h2>
+
+          <div className="text-center mb-8">
+            <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+              📞 SIM, QUERO COMEÇAR HOJE
+            </Button>
+          </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
             <Card className="bg-slate-700 p-6">
@@ -479,8 +541,8 @@ const Index = () => {
               <h3 className="text-5xl font-bold text-white mb-2">8x de R$5,38</h3>
               <p className="text-xl mb-6">(ou R$37,90 à vista)</p>
 
-              <Button className="w-full bg-white text-orange-600 hover:bg-gray-100 text-base md:text-xl font-bold py-4 md:py-6 px-4 md:px-8 rounded-lg mb-4 min-h-[60px] flex items-center justify-center">
-                <span className="text-center leading-tight">🚀 SIM, EU QUERO DOMINAR AS LIGAÇÕES LUCRATIVAS!</span>
+              <Button className="w-full bg-white text-orange-600 hover:bg-gray-100 font-bold py-4 px-4 rounded-lg mb-4 min-h-[60px] text-sm md:text-base lg:text-lg">
+                🚀 QUERO DOMINAR AS LIGAÇÕES LUCRATIVAS
               </Button>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4 text-sm">
