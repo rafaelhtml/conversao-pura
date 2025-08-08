@@ -25,6 +25,15 @@ const Index = () => {
             A <span className="text-orange-500 font-semibold">revolução da prospecção</span> que está{" "}
             <span className="text-green-500 font-semibold">multiplicando vendas</span> enquanto você dorme.
           </p>
+          
+          <div className="bg-green-900/20 border border-green-500 p-4 rounded-lg mb-8 max-w-3xl mx-auto">
+            <p className="text-lg font-bold text-green-400 mb-2">
+              ✅ SUPER SIMPLES - SEM PROGRAMAÇÃO!
+            </p>
+            <p className="text-gray-300">
+              Método 100% visual e passo a passo. Qualquer pessoa consegue implementar, mesmo sem conhecimento técnico.
+            </p>
+          </div>
 
           {/* Main Value Proposition */}
           <Card className="bg-slate-800 border-slate-700 my-12 p-8">
@@ -390,10 +399,10 @@ const Index = () => {
           <div className="max-w-4xl mx-auto space-y-6">
             <Card className="bg-slate-700 p-6">
               <h3 className="font-bold text-lg mb-3 text-orange-500">
-                🤔 É difícil de implementar?
+                🤔 Preciso saber programar para usar?
               </h3>
               <p className="text-gray-300">
-                Não! O curso foi criado para iniciantes. Com aulas passo a passo, você terá seu robô funcionando em poucos dias, mesmo sem conhecimento técnico.
+                <strong className="text-green-400">ZERO programação necessária!</strong> O curso é 100% visual e passo a passo. Se você sabe usar WhatsApp, consegue criar seu robô. Método super simples para qualquer pessoa.
               </p>
             </Card>
 
@@ -417,10 +426,10 @@ const Index = () => {
 
             <Card className="bg-slate-700 p-6">
               <h3 className="font-bold text-lg mb-3 text-orange-500">
-                🎯 Funciona para qualquer nicho?
+                ⏱️ Quanto tempo leva para implementar?
               </h3>
               <p className="text-gray-300">
-                Absolutamente! O método é adaptável para qualquer segmento: consultoria, produtos físicos, digitais, serviços, imóveis, seguros, etc.
+                Com nossa metodologia super simples, você terá seu primeiro robô funcionando em apenas <strong className="text-green-400">2-3 dias</strong>. Tudo sem programar uma linha de código!
               </p>
             </Card>
 
