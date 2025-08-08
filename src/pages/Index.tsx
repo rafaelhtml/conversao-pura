@@ -342,30 +342,30 @@ const Index = () => {
               👨‍🏫 Conheça seu <span className="text-orange-500">mentor</span>
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="text-center">
+            <div className="flex flex-col items-center text-center space-y-8">
+              <div>
                 <img 
                   src="https://ligacoeslucrativas.com.br/img/rafa02.jpg" 
                   alt="Rafael Soares - Especialista em Automação de Vendas" 
-                  className="w-80 h-80 object-cover rounded-lg mx-auto mb-6 shadow-2xl"
+                  className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg mx-auto shadow-2xl"
                 />
               </div>
               
-              <div>
-                <h3 className="text-3xl font-bold mb-6 text-white">
+              <div className="max-w-2xl">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">
                   Rafael Soares
                 </h3>
-                <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-300 mb-4 leading-relaxed">
                   <strong className="text-orange-500">CEO da Telein</strong>, é especialista em automação de vendas por voz, 
                   criador do método Mestre das Ligações Lucrativas, e de várias soluções de automação.
                 </p>
-                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-300 mb-6 leading-relaxed">
                   Com mais de <strong className="text-green-500">10 anos de experiência</strong> em marketing, 
                   tecnologia e prospecção automatizada, ajudou <strong className="text-orange-500">centenas de empresas</strong> 
                   a escalarem suas vendas usando a URA Reversa.
                 </p>
                 
-                <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+                <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-6 md:px-8 rounded-lg text-base md:text-lg w-full md:w-auto">
                   🚀 QUERO APRENDER COM O RAFAEL
                 </Button>
               </div>
