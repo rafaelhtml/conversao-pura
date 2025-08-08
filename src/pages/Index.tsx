@@ -117,23 +117,23 @@ const Index = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <XCircle className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-                  <span>Vendedores gastam tempo caçando leads frios</span>
+                  <span className="text-white">Vendedores gastam tempo caçando leads frios</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <XCircle className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-                  <span>Taxa de conversão baixíssima (1-3%)</span>
+                  <span className="text-white">Taxa de conversão baixíssima (1-3%)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <XCircle className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-                  <span>Equipe desmotivada com tantos "NÃOs"</span>
+                  <span className="text-white">Equipe desmotivada com tantos "NÃOs"</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <XCircle className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-                  <span>Dinheiro jogado fora em prospecção manual</span>
+                  <span className="text-white">Dinheiro jogado fora em prospecção manual</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <XCircle className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-                  <span>Concorrência sempre um passo à frente</span>
+                  <span className="text-white">Concorrência sempre um passo à frente</span>
                 </li>
               </ul>
             </Card>
@@ -147,23 +147,23 @@ const Index = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span>Robô filtra apenas <strong>clientes interessados</strong></span>
+                  <span className="text-white">Robô filtra apenas <strong>clientes interessados</strong></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span>Taxa de conversão dispara (15-30%)</span>
+                  <span className="text-white">Taxa de conversão dispara (15-30%)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span>Vendedores focam só em <strong>fechar negócios</strong></span>
+                  <span className="text-white">Vendedores focam só em <strong>fechar negócios</strong></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span>ROI multiplicado por trabalhar 24/7</span>
+                  <span className="text-white">ROI multiplicado por trabalhar 24/7</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span>Você se torna <strong>referência no mercado</strong></span>
+                  <span className="text-white">Você se torna <strong>referência no mercado</strong></span>
                 </li>
               </ul>
             </Card>
@@ -261,7 +261,7 @@ const Index = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold">Robô Básico do Zero</h3>
+                <h3 className="font-bold text-white">Robô Básico do Zero</h3>
               </div>
               <p className="text-gray-300">Como criar um robô de ligações básico do zero</p>
             </Card>
@@ -269,7 +269,7 @@ const Index = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold">IA de Reconhecimento</h3>
+                <h3 className="font-bold text-white">IA de Reconhecimento</h3>
               </div>
               <p className="text-gray-300">Ative reconhecimento de voz por IA para identificar palavras faladas</p>
             </Card>
@@ -277,7 +277,7 @@ const Index = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold">Integração WhatsApp</h3>
+                <h3 className="font-bold text-white">Integração WhatsApp</h3>
               </div>
               <p className="text-gray-300">Integre o robô ao WhatsApp para chamar os clientes interessados automaticamente</p>
             </Card>
@@ -285,7 +285,7 @@ const Index = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold">Clonagem de Voz</h3>
+                <h3 className="font-bold text-white">Clonagem de Voz</h3>
               </div>
               <p className="text-gray-300">Clone sua própria voz para o robô usar nas ligações</p>
             </Card>
@@ -293,7 +293,7 @@ const Index = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold">Scripts de Conversão</h3>
+                <h3 className="font-bold text-white">Scripts de Conversão</h3>
               </div>
               <p className="text-gray-300">Scripts testados e aprovados para máxima conversão</p>
             </Card>
@@ -301,7 +301,7 @@ const Index = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold">Automação Completa</h3>
+                <h3 className="font-bold text-white">Automação Completa</h3>
               </div>
               <p className="text-gray-300">Sistema funcionando 24/7 sem sua intervenção</p>
             </Card>
