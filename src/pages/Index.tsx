@@ -48,7 +48,7 @@ const IndexContent = () => {
           {/* Main Value Proposition */}
           <Card className="bg-slate-800 border-slate-700 my-12 p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6">
-              Aprenda a criar robôs que fazem TODO o trabalho pesado
+              Aprenda a criar robôs que automatizam sua prospecção por ligação
             </h2>
             <p className="text-xl text-gray-300 mb-8">
               Seus robôs irão <span className="text-green-500 font-semibold">ligar automaticamente</span>, 
