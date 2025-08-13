@@ -527,9 +527,9 @@ const IndexContent = () => {
               <h3 className="font-bold text-lg mb-3 text-orange-500">
                 ⏱️ Quanto tempo leva para implementar?
               </h3>
-              <p className="text-gray-300">
-                Com nossa metodologia super simples, você terá seu primeiro robô funcionando em apenas <strong className="text-green-400">2-3 dias</strong>. Tudo sem programar uma linha de código!
-              </p>
+               <p className="text-gray-300">
+                 Com nossa metodologia super simples, se você se dedicar, em apenas <strong className="text-green-400">1 dia</strong> você já terá seu primeiro robô funcionando. Tudo sem programar uma linha de código!
+               </p>
             </Card>
 
             <Card className="bg-slate-700 p-6">
