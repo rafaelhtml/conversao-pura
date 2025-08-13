@@ -48,26 +48,53 @@ const IndexContent = () => {
           {/* Main Value Proposition */}
           <Card className="bg-slate-800 border-slate-700 my-12 p-8">
             <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6">
-              Crie robôs de prospecção por ligação telefônica
+              Aprenda a criar robôs que fazem TODO o trabalho pesado
             </h2>
-            <p className="text-lg text-gray-300 mb-8">
-              Que trabalham <span className="text-green-500 font-semibold">todos os dias</span> oferecendo
-              seu produto e filtrando <span className="text-orange-500 font-semibold">somente quem tem interesse</span>.
+            <p className="text-xl text-gray-300 mb-8">
+              Seus robôs irão <span className="text-green-500 font-semibold">ligar automaticamente</span>, 
+              <span className="text-orange-500 font-semibold"> ofereccer seu produto</span> e 
+              <span className="text-blue-400 font-semibold"> chamar no WhatsApp apenas quem demonstrou interesse</span>
             </p>
             
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="flex items-center justify-center gap-3">
-                <Phone className="w-6 h-6 text-orange-500" />
-                <span className="font-semibold text-white">Ligações Automatizadas</span>
+            {/* Automation Flow */}
+            <div className="bg-slate-700/50 p-6 rounded-lg mb-8">
+              <h3 className="text-xl font-bold text-center text-white mb-6">🤖 SEU FUNIL DE VENDAS AUTOMÁTICO</h3>
+              <div className="grid md:grid-cols-4 gap-4">
+                <div className="text-center">
+                  <div className="bg-orange-500 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-sm font-semibold text-white">1. ROBOT LIGA</p>
+                  <p className="text-xs text-gray-300">Automaticamente</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-blue-500 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <Zap className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-sm font-semibold text-white">2. OFERECE</p>
+                  <p className="text-xs text-gray-300">Seu produto/serviço</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-green-500 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <Shield className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-sm font-semibold text-white">3. QUALIFICA</p>
+                  <p className="text-xs text-gray-300">Identifica interesse</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-purple-500 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                    <Users className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-sm font-semibold text-white">4. WHATSAPP</p>
+                  <p className="text-xs text-gray-300">Só quem tem interesse</p>
+                </div>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <Zap className="w-6 h-6 text-yellow-500" />
-                <span className="font-semibold text-white">IA de Reconhecimento</span>
-              </div>
-              <div className="flex items-center justify-center gap-3">
-                <TrendingUp className="w-6 h-6 text-green-500" />
-                <span className="font-semibold text-white">Leads Qualificados</span>
-              </div>
+            </div>
+            
+            <div className="bg-green-900/20 border border-green-500 p-4 rounded-lg">
+              <p className="text-lg font-bold text-green-400 text-center">
+                ✨ RESULTADO: Você recebe apenas LEADS QUENTES no WhatsApp!
+              </p>
             </div>
           </Card>
 
