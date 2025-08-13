@@ -532,6 +532,15 @@ const IndexContent = () => {
                </p>
             </Card>
 
+            <Card className="bg-slate-700 p-6">
+              <h3 className="font-bold text-lg mb-3 text-orange-500">
+                💬 É possível integrar com WhatsApp?
+              </h3>
+              <p className="text-gray-300">
+                Sim! O curso ensina como integrar automaticamente com WhatsApp tanto via <strong className="text-green-400">API oficial</strong> (WhatsApp Business) quanto via <strong className="text-blue-400">API não oficial</strong>, para chamar clientes interessados automaticamente.
+              </p>
+            </Card>
+
           </div>
         </div>
       </section>
