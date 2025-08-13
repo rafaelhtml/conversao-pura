@@ -532,14 +532,6 @@ const IndexContent = () => {
                </p>
             </Card>
 
-            <Card className="bg-slate-700 p-6">
-              <h3 className="font-bold text-lg mb-3 text-orange-500">
-                📞 E se o cliente reclamar?
-              </h3>
-              <p className="text-gray-300">
-                O robô é programado para ser educado e respeitoso. Incluo scripts testados que minimizam reclamações e maximizam interesse.
-              </p>
-            </Card>
           </div>
         </div>
       </section>
