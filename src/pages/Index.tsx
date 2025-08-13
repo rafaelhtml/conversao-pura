@@ -252,12 +252,18 @@ const IndexContent = () => {
               <h3 className="text-xl font-bold mb-4 text-orange-500">
                 🤖 Robô com sua voz e reconhecimento de fala por IA
               </h3>
-              <div className="bg-slate-700 p-4 rounded-lg mb-4">
-                <audio controls className="w-full">
-                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo4.mp3" type="audio/mpeg" />
-                  Seu navegador não suporta o elemento de áudio.
-                </audio>
-              </div>
+               <div className="bg-slate-700 p-4 rounded-lg mb-4">
+                 <audio 
+                   controls 
+                   className="w-full" 
+                   preload="metadata"
+                   crossOrigin="anonymous"
+                 >
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo4.mp3" type="audio/mpeg" />
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo4.mp3" type="audio/mp3" />
+                   Seu navegador não suporta o elemento de áudio.
+                 </audio>
+               </div>
               <p className="text-gray-300 text-sm">Venda de serviços</p>
             </Card>
 
@@ -265,12 +271,18 @@ const IndexContent = () => {
               <h3 className="text-xl font-bold mb-4 text-orange-500">
                 📢 Divulgue grupos e produtos
               </h3>
-              <div className="bg-slate-700 p-4 rounded-lg mb-4">
-                <audio controls className="w-full">
-                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo6.mp3" type="audio/mpeg" />
-                  Seu navegador não suporta o elemento de áudio.
-                </audio>
-              </div>
+               <div className="bg-slate-700 p-4 rounded-lg mb-4">
+                 <audio 
+                   controls 
+                   className="w-full" 
+                   preload="metadata"
+                   crossOrigin="anonymous"
+                 >
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo6.mp3" type="audio/mpeg" />
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo6.mp3" type="audio/mp3" />
+                   Seu navegador não suporta o elemento de áudio.
+                 </audio>
+               </div>
               <p className="text-gray-300 text-sm">Marketing de produtos</p>
             </Card>
 
@@ -278,12 +290,18 @@ const IndexContent = () => {
               <h3 className="text-xl font-bold mb-4 text-orange-500">
                 💰 Empréstimos Consignado
               </h3>
-              <div className="bg-slate-700 p-4 rounded-lg mb-4">
-                <audio controls className="w-full">
-                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo3.mp3" type="audio/mpeg" />
-                  Seu navegador não suporta o elemento de áudio.
-                </audio>
-              </div>
+               <div className="bg-slate-700 p-4 rounded-lg mb-4">
+                 <audio 
+                   controls 
+                   className="w-full" 
+                   preload="metadata"
+                   crossOrigin="anonymous"
+                 >
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo3.mp3" type="audio/mpeg" />
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo3.mp3" type="audio/mp3" />
+                   Seu navegador não suporta o elemento de áudio.
+                 </audio>
+               </div>
               <p className="text-gray-300 text-sm">Serviços financeiros</p>
             </Card>
 
@@ -291,12 +309,18 @@ const IndexContent = () => {
               <h3 className="text-xl font-bold mb-4 text-orange-500">
                 🏢 Captação de leads B2B
               </h3>
-              <div className="bg-slate-700 p-4 rounded-lg mb-4">
-                <audio controls className="w-full">
-                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo2.mp3" type="audio/mpeg" />
-                  Seu navegador não suporta o elemento de áudio.
-                </audio>
-              </div>
+               <div className="bg-slate-700 p-4 rounded-lg mb-4">
+                 <audio 
+                   controls 
+                   className="w-full" 
+                   preload="metadata"
+                   crossOrigin="anonymous"
+                 >
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo2.mp3" type="audio/mpeg" />
+                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo2.mp3" type="audio/mp3" />
+                   Seu navegador não suporta o elemento de áudio.
+                 </audio>
+               </div>
               <p className="text-gray-300 text-sm">Vendas corporativas</p>
             </Card>
           </div>
