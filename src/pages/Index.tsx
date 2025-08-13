@@ -255,12 +255,12 @@ const IndexContent = () => {
                <div className="bg-slate-700 p-4 rounded-lg mb-4">
                  <audio 
                    controls 
-                   className="w-full" 
-                   preload="metadata"
-                   crossOrigin="anonymous"
+                   className="w-full"
+                   onError={(e) => console.log('Erro ao carregar áudio 1:', e)}
+                   onLoadStart={() => console.log('Carregando áudio 1...')}
+                   onCanPlay={() => console.log('Áudio 1 pronto para reproduzir')}
                  >
                    <source src="https://ligacoeslucrativas.com.br/audios/exemplo4.mp3" type="audio/mpeg" />
-                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo4.mp3" type="audio/mp3" />
                    Seu navegador não suporta o elemento de áudio.
                  </audio>
                </div>
@@ -274,12 +274,12 @@ const IndexContent = () => {
                <div className="bg-slate-700 p-4 rounded-lg mb-4">
                  <audio 
                    controls 
-                   className="w-full" 
-                   preload="metadata"
-                   crossOrigin="anonymous"
+                   className="w-full"
+                   onError={(e) => console.log('Erro ao carregar áudio 2:', e)}
+                   onLoadStart={() => console.log('Carregando áudio 2...')}
+                   onCanPlay={() => console.log('Áudio 2 pronto para reproduzir')}
                  >
                    <source src="https://ligacoeslucrativas.com.br/audios/exemplo6.mp3" type="audio/mpeg" />
-                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo6.mp3" type="audio/mp3" />
                    Seu navegador não suporta o elemento de áudio.
                  </audio>
                </div>
@@ -293,12 +293,12 @@ const IndexContent = () => {
                <div className="bg-slate-700 p-4 rounded-lg mb-4">
                  <audio 
                    controls 
-                   className="w-full" 
-                   preload="metadata"
-                   crossOrigin="anonymous"
+                   className="w-full"
+                   onError={(e) => console.log('Erro ao carregar áudio 3:', e)}
+                   onLoadStart={() => console.log('Carregando áudio 3...')}
+                   onCanPlay={() => console.log('Áudio 3 pronto para reproduzir')}
                  >
                    <source src="https://ligacoeslucrativas.com.br/audios/exemplo3.mp3" type="audio/mpeg" />
-                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo3.mp3" type="audio/mp3" />
                    Seu navegador não suporta o elemento de áudio.
                  </audio>
                </div>
@@ -312,12 +312,12 @@ const IndexContent = () => {
                <div className="bg-slate-700 p-4 rounded-lg mb-4">
                  <audio 
                    controls 
-                   className="w-full" 
-                   preload="metadata"
-                   crossOrigin="anonymous"
+                   className="w-full"
+                   onError={(e) => console.log('Erro ao carregar áudio 4:', e)}
+                   onLoadStart={() => console.log('Carregando áudio 4...')}
+                   onCanPlay={() => console.log('Áudio 4 pronto para reproduzir')}
                  >
                    <source src="https://ligacoeslucrativas.com.br/audios/exemplo2.mp3" type="audio/mpeg" />
-                   <source src="https://ligacoeslucrativas.com.br/audios/exemplo2.mp3" type="audio/mp3" />
                    Seu navegador não suporta o elemento de áudio.
                  </audio>
                </div>
