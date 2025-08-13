@@ -365,9 +365,9 @@ const IndexContent = () => {
             <Card className="bg-slate-700 p-6">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold text-white">Clonagem de Voz</h3>
+                <h3 className="font-bold text-white">Assistente IA para Ofertas</h3>
               </div>
-              <p className="text-gray-300">Clone sua própria voz para o robô usar nas ligações</p>
+              <p className="text-gray-300">Assistente inteligente que ajuda a criar o áudio da oferta de acordo com seu produto e nicho específico</p>
             </Card>
 
             <Card className="bg-slate-700 p-6">
