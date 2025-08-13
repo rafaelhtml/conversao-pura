@@ -118,7 +118,10 @@ const IndexContent = () => {
               ⚡ Domine a prospecção por voz antes da concorrência
             </p>
 
-            <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg md:text-xl font-bold py-4 px-4 md:px-8 rounded-lg mb-6 animate-pulse min-h-[60px] flex items-center justify-center">
+            <Button 
+              className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg md:text-xl font-bold py-4 px-4 md:px-8 rounded-lg mb-6 animate-pulse min-h-[60px] flex items-center justify-center"
+              onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+            >
               <span className="text-center">🚀 QUERO COMEÇAR AGORA</span>
             </Button>
 
@@ -224,7 +227,10 @@ const IndexContent = () => {
               clientes quentes e <strong className="text-green-500">prontos para fechar</strong>.
             </p>
             
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+            <Button 
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg"
+              onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+            >
               🚀 QUERO COMEÇAR AGORA
             </Button>
           </div>
@@ -242,7 +248,10 @@ const IndexContent = () => {
           </p>
           
           <div className="text-center mb-12">
-            <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+            <Button 
+              className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg"
+              onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+            >
               💰 QUERO CRIAR MEUS ROBÔS
             </Button>
           </div>
@@ -388,7 +397,10 @@ const IndexContent = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+            <Button 
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg"
+              onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+            >
               🎯 QUERO ACESSO COMPLETO
             </Button>
           </div>
@@ -426,7 +438,10 @@ const IndexContent = () => {
                   a escalarem suas vendas usando a URA Reversa.
                 </p>
                 
-                <Button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-6 md:px-8 rounded-lg text-base md:text-lg w-full md:w-auto">
+                <Button 
+                  className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-6 md:px-8 rounded-lg text-base md:text-lg w-full md:w-auto"
+                  onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+                >
                   🚀 QUERO APRENDER COM O RAFAEL
                 </Button>
               </div>
@@ -514,7 +529,10 @@ const IndexContent = () => {
           </h2>
 
           <div className="text-center mb-8">
-            <Button className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg">
+            <Button 
+              className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg"
+              onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+            >
               📞 SIM, QUERO COMEÇAR HOJE
             </Button>
           </div>
@@ -603,7 +621,10 @@ const IndexContent = () => {
               <h3 className="text-5xl font-bold text-white mb-2">8x de R$5,38</h3>
               <p className="text-xl mb-6">(ou R$37,90 à vista)</p>
 
-              <Button className="w-full bg-white text-orange-600 hover:bg-gray-100 font-bold py-4 px-4 rounded-lg mb-4 min-h-[60px] text-sm md:text-base lg:text-lg">
+              <Button 
+                className="w-full bg-white text-orange-600 hover:bg-gray-100 font-bold py-4 px-4 rounded-lg mb-4 min-h-[60px] text-sm md:text-base lg:text-lg"
+                onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+              >
                 🚀 QUERO DOMINAR AS LIGAÇÕES LUCRATIVAS
               </Button>
 
