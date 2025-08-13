@@ -2,8 +2,18 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, XCircle, Phone, Zap, TrendingUp, Play, Star, Shield, Clock, Users } from "lucide-react";
+import { Suspense } from "react";
 
-const Index = () => {
+const LoadingSpinner = () => (
+  <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+    <div className="text-center">
+      <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-orange-500 mx-auto"></div>
+      <p className="text-white mt-4 text-lg">Carregando...</p>
+    </div>
+  </div>
+);
+
+const IndexContent = () => {
   return (
     <div className="min-h-screen bg-slate-900 text-white">
       {/* Header with Urgency Badge */}
@@ -603,5 +613,11 @@ const Index = () => {
     </div>
   );
 };
+
+const Index = () => (
+  <Suspense fallback={<LoadingSpinner />}>
+    <IndexContent />
+  </Suspense>
+);
 
 export default Index;
