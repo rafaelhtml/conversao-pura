@@ -254,7 +254,7 @@ const IndexContent = () => {
               </h3>
               <div className="bg-slate-700 p-4 rounded-lg mb-4">
                 <audio controls className="w-full">
-                  <source src="/audio-example-1.mp3" type="audio/mpeg" />
+                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo4.mp3" type="audio/mpeg" />
                   Seu navegador não suporta o elemento de áudio.
                 </audio>
               </div>
@@ -267,7 +267,7 @@ const IndexContent = () => {
               </h3>
               <div className="bg-slate-700 p-4 rounded-lg mb-4">
                 <audio controls className="w-full">
-                  <source src="/audio-example-2.mp3" type="audio/mpeg" />
+                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo6.mp3" type="audio/mpeg" />
                   Seu navegador não suporta o elemento de áudio.
                 </audio>
               </div>
@@ -280,7 +280,7 @@ const IndexContent = () => {
               </h3>
               <div className="bg-slate-700 p-4 rounded-lg mb-4">
                 <audio controls className="w-full">
-                  <source src="/audio-example-3.mp3" type="audio/mpeg" />
+                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo3.mp3" type="audio/mpeg" />
                   Seu navegador não suporta o elemento de áudio.
                 </audio>
               </div>
@@ -293,7 +293,7 @@ const IndexContent = () => {
               </h3>
               <div className="bg-slate-700 p-4 rounded-lg mb-4">
                 <audio controls className="w-full">
-                  <source src="/audio-example-4.mp3" type="audio/mpeg" />
+                  <source src="https://ligacoeslucrativas.com.br/audios/exemplo2.mp3" type="audio/mpeg" />
                   Seu navegador não suporta o elemento de áudio.
                 </audio>
               </div>
