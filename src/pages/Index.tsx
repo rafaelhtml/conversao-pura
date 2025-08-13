@@ -208,7 +208,7 @@ const IndexContent = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
-                  <span className="text-white">ROI multiplicado por trabalhar 24/7</span>
+                  <span className="text-white">ROI multiplicado por <strong>eficiência automatizada</strong></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
