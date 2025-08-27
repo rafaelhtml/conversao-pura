@@ -26,16 +26,16 @@ const IndexContent = () => {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-8 md:py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-300">
             Mestre das{" "}
             <span className="text-orange-500">Ligações Lucrativas</span>
           </h1>
           
 
           {/* Main Value Proposition */}
-          <Card className="bg-slate-800 border-slate-700 my-12 p-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6">
-              Aprenda a criar robôs que automatizam sua prospecção por ligação
+          <Card className="bg-gradient-to-r from-slate-800 to-slate-700 border-orange-500/30 border-2 my-12 p-8 shadow-2xl shadow-orange-500/20">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-tight bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+              Aprenda A Criar Robôs Que Automatizam Sua Prospecção Por Ligação
             </h2>
             <p className="text-xl text-gray-300 mb-8">
               Seus robôs irão <span className="text-green-500 font-semibold">ligar automaticamente</span>, 
