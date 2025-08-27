@@ -34,7 +34,7 @@ const IndexContent = () => {
 
           {/* Main Value Proposition */}
           <Card className="bg-gradient-to-r from-slate-800 to-slate-700 border-orange-500/30 border-2 my-12 p-8 shadow-2xl shadow-orange-500/20">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-tight bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-4 leading-tight bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
               Aprenda A Criar Robôs Que Automatizam Sua Prospecção Por Ligação
             </h2>
             <p className="text-xl text-gray-300 mb-8">
