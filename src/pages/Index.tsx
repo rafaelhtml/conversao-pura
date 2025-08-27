@@ -24,7 +24,7 @@ const IndexContent = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16 text-center">
+      <section className="container mx-auto px-4 py-8 md:py-16 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
             Mestre das{" "}
@@ -35,18 +35,6 @@ const IndexContent = () => {
             A <span className="text-orange-500 font-semibold">revolução da prospecção</span> que está{" "}
             <span className="text-green-500 font-semibold">multiplicando vendas</span> enquanto você dorme.
           </p>
-          
-          <div className="bg-green-900/20 border border-green-500 p-4 rounded-lg mb-8 max-w-3xl mx-auto">
-            <p className="text-lg font-bold text-green-400 mb-2">
-              ✅ SUPER SIMPLES - SEM PROGRAMAÇÃO!
-            </p>
-            <p className="text-gray-300 mb-3">
-              Método 100% visual e passo a passo. Qualquer pessoa consegue implementar, mesmo sem conhecimento técnico.
-            </p>
-            <p className="text-orange-500 font-semibold">
-              ⚡ Em apenas 60 minutos você vai dominar todo o processo!
-            </p>
-          </div>
 
           {/* Main Value Proposition */}
           <Card className="bg-slate-800 border-slate-700 my-12 p-8">
@@ -100,6 +88,18 @@ const IndexContent = () => {
               </p>
             </div>
           </Card>
+
+          <div className="bg-green-900/20 border border-green-500 p-4 rounded-lg mb-8 max-w-3xl mx-auto">
+            <p className="text-lg font-bold text-green-400 mb-2">
+              ✅ SUPER SIMPLES - SEM PROGRAMAÇÃO!
+            </p>
+            <p className="text-gray-300 mb-3">
+              Método 100% visual e passo a passo. Qualquer pessoa consegue implementar, mesmo sem conhecimento técnico.
+            </p>
+            <p className="text-orange-500 font-semibold">
+              ⚡ Em apenas 60 minutos você vai dominar todo o processo!
+            </p>
+          </div>
 
           <div className="bg-slate-800 p-6 rounded-lg mb-8">
             <p className="text-lg text-gray-300 mb-2">
