@@ -26,7 +26,7 @@ const IndexContent = () => {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
             Mestre das{" "}
             <span className="text-orange-500">Ligações Lucrativas</span>
           </h1>
@@ -40,8 +40,11 @@ const IndexContent = () => {
             <p className="text-lg font-bold text-green-400 mb-2">
               ✅ SUPER SIMPLES - SEM PROGRAMAÇÃO!
             </p>
-            <p className="text-gray-300">
+            <p className="text-gray-300 mb-3">
               Método 100% visual e passo a passo. Qualquer pessoa consegue implementar, mesmo sem conhecimento técnico.
+            </p>
+            <p className="text-orange-500 font-semibold">
+              ⚡ Em apenas 60 minutos você vai dominar todo o processo!
             </p>
           </div>
 
@@ -64,7 +67,7 @@ const IndexContent = () => {
                   <div className="bg-orange-500 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-sm font-semibold text-white">1. ROBOT LIGA</p>
+                  <p className="text-sm font-semibold text-white">1. ROBÔ LIGA</p>
                   <p className="text-xs text-gray-300">Automaticamente</p>
                 </div>
                 <div className="text-center">
