@@ -31,10 +31,6 @@ const IndexContent = () => {
             <span className="text-orange-500">Ligações Lucrativas</span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-4 text-gray-300">
-            A <span className="text-orange-500 font-semibold">revolução da prospecção</span> que está{" "}
-            <span className="text-green-500 font-semibold">multiplicando vendas</span> enquanto você dorme.
-          </p>
 
           {/* Main Value Proposition */}
           <Card className="bg-slate-800 border-slate-700 my-12 p-8">
@@ -390,13 +386,6 @@ const IndexContent = () => {
               <p className="text-gray-300">Scripts testados e aprovados para máxima conversão</p>
             </Card>
 
-            <Card className="bg-slate-700 p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <CheckCircle className="w-6 h-6 text-green-500" />
-                <h3 className="font-bold text-white">Automação Completa</h3>
-              </div>
-              <p className="text-gray-300">Sistema funcionando 24/7 sem sua intervenção</p>
-            </Card>
           </div>
           
           <div className="text-center mt-12">
