@@ -26,9 +26,8 @@ const IndexContent = () => {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-8 md:py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-300">
-            Mestre das{" "}
-            <span className="text-orange-500">Ligações Lucrativas</span>
+          <h1 className="text-lg md:text-3xl font-semibold mb-8 text-gray-300 whitespace-nowrap">
+            Mestre das <span className="text-orange-500">Ligações Lucrativas</span>
           </h1>
           
 
