@@ -24,16 +24,23 @@ const IndexContent = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-8 md:py-16 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-lg md:text-3xl font-semibold mb-8 text-gray-300 whitespace-nowrap">
-            Mestre das <span className="text-orange-500">Ligações Lucrativas</span>
-          </h1>
-          
+      <section className="container mx-auto px-4 py-12 md:py-20 text-center">
+        <div className="max-w-5xl mx-auto">
+          <div className="mb-8">
+            <h1 className="text-2xl md:text-4xl font-bold mb-6 text-white leading-tight">
+              Transforme Sua Prospecção em 
+              <span className="block text-transparent bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 bg-clip-text">
+                Máquina de Vendas Automática
+              </span>
+            </h1>
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              Pare de desperdiçar tempo com ligações manuais. Aprenda a criar robôs inteligentes que fazem a prospecção por você e entregam apenas <span className="text-green-400 font-semibold">leads quentes</span> no seu WhatsApp.
+            </p>
+          </div>
 
           {/* Main Value Proposition */}
-          <Card className="bg-gradient-to-r from-slate-800 to-slate-700 border-orange-500/30 border-2 my-12 p-8 shadow-2xl shadow-orange-500/20">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-4 leading-tight bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+          <Card className="bg-gradient-to-br from-slate-800 via-slate-700 to-slate-800 border-orange-500/40 border-2 my-12 p-8 shadow-2xl shadow-orange-500/30 rounded-2xl">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-center mb-6 leading-tight bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
               Aprenda A Criar Robôs Que Automatizam Sua Prospecção Por Ligação
             </h2>
             <p className="text-xl text-gray-300 mb-8">
@@ -138,6 +145,89 @@ const IndexContent = () => {
               </div>
             </div>
           </Card>
+        </div>
+      </section>
+
+      {/* Sales Increase Section - Inspired by uploaded image */}
+      <section className="py-16 bg-gradient-to-b from-slate-900 to-slate-800">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <span className="text-orange-500">Aumente as suas vendas</span><br />
+              <span className="text-white">sem precisar aumentar a sua equipe</span>
+            </h2>
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+              Enquanto você liga manualmente para leads frios, poderia ter um robô fazendo isso 
+              todos os dias e entregando apenas clientes interessados para sua equipe.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <Card className="bg-slate-800 border-slate-700 p-6 hover:border-orange-500/50 transition-all duration-300">
+              <div className="text-center">
+                <div className="bg-blue-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-8 h-8 text-blue-400" />
+                </div>
+                <h3 className="text-lg font-bold text-white mb-3">Tempo perdido com ligações manuais</h3>
+                <p className="text-sm text-gray-400">
+                  Sua equipe gasta horas ligando para leads frios que não convertem
+                </p>
+              </div>
+            </Card>
+
+            <Card className="bg-slate-800 border-slate-700 p-6 hover:border-orange-500/50 transition-all duration-300">
+              <div className="text-center">
+                <div className="bg-red-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-8 h-8 text-red-400" />
+                </div>
+                <h3 className="text-lg font-bold text-white mb-3">Baixa taxa de conversão</h3>
+                <p className="text-sm text-gray-400">
+                  Sem qualificação adequada, vendedores perdem tempo com leads frios
+                </p>
+              </div>
+            </Card>
+
+            <Card className="bg-slate-800 border-slate-700 p-6 hover:border-orange-500/50 transition-all duration-300">
+              <div className="text-center">
+                <div className="bg-purple-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-purple-400" />
+                </div>
+                <h3 className="text-lg font-bold text-white mb-3">Dificuldade para escalar vendas</h3>
+                <p className="text-sm text-gray-400">
+                  Equipe limitada não consegue ligar para toda a base de contatos
+                </p>
+              </div>
+            </Card>
+
+            <Card className="bg-slate-800 border-slate-700 p-6 hover:border-orange-500/50 transition-all duration-300">
+              <div className="text-center">
+                <div className="bg-orange-500/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-orange-400" />
+                </div>
+                <h3 className="text-lg font-bold text-white mb-3">Dependência de sistemas complexos</h3>
+                <p className="text-sm text-gray-400">
+                  Plataformas caras com contratos longos e configuração complicada
+                </p>
+              </div>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <div className="bg-gradient-to-r from-green-900/30 to-blue-900/30 border border-green-500/50 rounded-lg p-6 max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold text-green-400 mb-4">
+                💡 A Solução: Robôs de Prospecção Inteligentes
+              </h3>
+              <p className="text-lg text-gray-300 mb-6">
+                Automatize 100% da prospecção inicial e receba apenas leads qualificados e interessados no WhatsApp
+              </p>
+              <Button 
+                className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg shadow-orange-500/30"
+                onClick={() => window.open('https://pay.hotmart.com/Y100948328W?bid=1753210907342?utm_source=&utm_medium=&utm_campaign=&utm_content=&conjuntodeanuncio=&posicionamento=', '_blank')}
+              >
+                🚀 QUERO AUTOMATIZAR AGORA
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
