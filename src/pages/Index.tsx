@@ -27,22 +27,26 @@ const IndexContent = () => {
       <section className="container mx-auto px-4 py-12 md:py-20 text-center">
         <div className="max-w-5xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-2xl md:text-4xl font-bold mb-6 text-white leading-tight">
+            <h1 className="text-2xl md:text-5xl font-bold mb-8 text-white leading-tight">
               Transforme Sua Prospecção em 
               <span className="block text-transparent bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 bg-clip-text">
                 Máquina de Vendas Automática
               </span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Pare de desperdiçar tempo com ligações manuais. Aprenda a criar robôs inteligentes que fazem a prospecção por você e entregam apenas <span className="text-green-400 font-semibold">leads quentes</span> no seu WhatsApp.
-            </p>
+            
+            {/* Main Value Proposition Integrated */}
+            <div className="bg-gradient-to-br from-slate-800 via-slate-700 to-slate-800 border-orange-500/40 border-2 p-8 rounded-2xl shadow-2xl shadow-orange-500/30 max-w-4xl mx-auto mb-8">
+              <h2 className="text-xl md:text-3xl font-bold text-center mb-6 leading-tight text-orange-400">
+                🤖 Aprenda A Criar Robôs Que Automatizam Sua Prospecção Por Ligação
+              </h2>
+              <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed text-center">
+                Pare de desperdiçar tempo com ligações manuais. Crie robôs inteligentes que fazem a prospecção por você e entregam apenas <span className="text-green-400 font-semibold">leads quentes</span> no seu WhatsApp.
+              </p>
+            </div>
           </div>
 
-          {/* Main Value Proposition */}
+          {/* Process Flow */}
           <Card className="bg-gradient-to-br from-slate-800 via-slate-700 to-slate-800 border-orange-500/40 border-2 my-12 p-8 shadow-2xl shadow-orange-500/30 rounded-2xl">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-center mb-6 leading-tight bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-              Aprenda A Criar Robôs Que Automatizam Sua Prospecção Por Ligação
-            </h2>
             <p className="text-xl text-gray-300 mb-8">
               Seus robôs irão <span className="text-green-500 font-semibold">ligar automaticamente</span>, 
               <span className="text-orange-500 font-semibold"> ofereccer seu produto</span> e 
