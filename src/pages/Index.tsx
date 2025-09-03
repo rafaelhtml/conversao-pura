@@ -539,62 +539,62 @@ const IndexContent = () => {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="bg-slate-800 p-6">
+            <Card className="bg-slate-700 border-slate-600 p-6">
               <div className="flex items-center gap-2 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
                 ))}
               </div>
               <p className="text-gray-300 mb-4">
-                "Em 30 dias consegui 200 leads qualificados. Minha equipe agora só fecha negócios!"
+                "O processo é muito fácil! No primeiro dia já estava com toda a estrutura rodando. Impressionante como é simples configurar os robôs."
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold">
-                  M
+                  C
                 </div>
                 <div>
-                  <p className="font-bold text-white">Marco Silva</p>
-                  <p className="text-sm text-gray-400">CEO Tech Solutions</p>
+                  <p className="font-bold text-white">Carlos Eduardo</p>
+                  <p className="text-sm text-gray-400">Diretor Comercial</p>
                 </div>
               </div>
             </Card>
 
-            <Card className="bg-slate-800 p-6">
+            <Card className="bg-slate-700 border-slate-600 p-6">
               <div className="flex items-center gap-2 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
                 ))}
               </div>
               <p className="text-gray-300 mb-4">
-                "Incrível! O robô trabalha enquanto eu durmo. Aumento de 300% nas vendas!"
+                "As aulas são muito objetivas! Com menos de 1 hora de vídeos já consegui ativar o robô que realiza as chamadas. Direto ao ponto!"
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">
-                  A
+                  L
                 </div>
                 <div>
-                  <p className="font-bold text-white">Ana Costa</p>
-                  <p className="text-sm text-gray-400">Consultora de Vendas</p>
+                  <p className="font-bold text-white">Luciana Santos</p>
+                  <p className="text-sm text-gray-400">Gerente de Vendas</p>
                 </div>
               </div>
             </Card>
 
-            <Card className="bg-slate-800 p-6">
+            <Card className="bg-slate-700 border-slate-600 p-6">
               <div className="flex items-center gap-2 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
                 ))}
               </div>
               <p className="text-gray-300 mb-4">
-                "Método simples e direto. Em 1 semana já estava com o robô funcionando perfeitamente."
+                "O método do curso foi uma ótima forma de transformar os leads parados em dinheiro no caixa da empresa. Resultado imediato!"
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
-                  R
+                  F
                 </div>
                 <div>
-                  <p className="font-bold text-white">Roberto Lima</p>
-                  <p className="text-sm text-gray-400">Empresário</p>
+                  <p className="font-bold text-white">Fernando Oliveira</p>
+                  <p className="text-sm text-gray-400">CEO StartupTech</p>
                 </div>
               </div>
             </Card>
